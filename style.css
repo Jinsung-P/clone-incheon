@@ -123,6 +123,7 @@ main {
     background-color: #EDF0EF;
     padding-top : 40px;
     padding-bottom : 40px;
+    min-width : 1160px;
 }
 .main_content{
     width : 1160px;
@@ -270,7 +271,7 @@ main {
 /****** main3 ******/
 .main3{
     background-color: #0070BD;
-    display : flex;
+    min-width : 1160px;
 
 }
 span{
@@ -279,18 +280,17 @@ span{
 .main_i_m {
     width : 1160px;
     margin : auto;
+    
+    justify-content: space-between;
 }
 .icon_menu {
     display : flex;
     justify-content: space-between;
     text-align : center;
-    /*align-items : center;
-    */
     margin : 0;
     padding : 13px 0;
     font-size : 18px;
-    /*font-weight : bold;
-    */
+    z-index : 1;
 }
 .icon_menu i{
     font-size : 20px;
